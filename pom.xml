@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sonarsource</groupId>
-    <artifactId>test-project</artifactId>
+    <artifactId>test-project-1</artifactId>
     <version>3.3-SNAPSHOT</version>
 
   <build>
