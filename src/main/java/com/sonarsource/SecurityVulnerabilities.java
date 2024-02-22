@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class SecurityVulnerabilities {
+  public static String test = "bleble";
+  
   private static final Logger logger = Logger.getLogger("Logger");
 
   public static void main(String[] args) {
