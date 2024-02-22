@@ -19,4 +19,6 @@ package com.sonarsource;/*
  */
 
 public class FirstTestClass {
+
+  public static String test ="test";
 }
