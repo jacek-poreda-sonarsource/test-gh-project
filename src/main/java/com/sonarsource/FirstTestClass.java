@@ -21,4 +21,6 @@ package com.sonarsource;/*
 public class FirstTestClass {
 
   public static String test ="test";
+  public static String test23 ="test";
+  public static String test234 ="test";
 }
