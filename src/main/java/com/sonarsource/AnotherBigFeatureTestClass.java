@@ -22,6 +22,7 @@ package com.sonarsource;
 public class AnotherBigFeatureTestClass {
 
   private static final String UNUSED_VARIABLE = "42";
+  private static final String UNUSED_VARIABLE_2 = "42";
 
   private String unusedMethod() {
     return null;
