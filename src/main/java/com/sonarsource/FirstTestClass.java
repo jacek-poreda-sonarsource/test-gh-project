@@ -32,4 +32,8 @@ public class FirstTestClass {
     public static String s1 ="test";
     public static String s2 ="test";
     public static String s3 ="test";
+
+    public static String u1 ="test";
+    public static String u2 ="test";
+    public static String u3 ="test";
 }
