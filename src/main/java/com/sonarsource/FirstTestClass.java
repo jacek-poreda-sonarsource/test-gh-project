@@ -36,4 +36,8 @@ public class FirstTestClass {
     public static String u1 ="test";
     public static String u2 ="test";
     public static String u3 ="test";
+
+    public static String a1 ="test";
+    public static String a2 ="test";
+    public static String a3 ="test";
 }
