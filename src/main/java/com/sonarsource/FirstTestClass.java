@@ -28,4 +28,8 @@ public class FirstTestClass {
     public static String d1 ="test";
     public static String d2 ="test";
     public static String d3 ="test";
+
+    public static String e1 ="test";
+    public static String e2 ="test";
+    public static String e3 ="test";
 }
