@@ -45,4 +45,9 @@ public class FirstTestClass {
     public static String f1 ="test";
     public static String f2 ="test";
     public static String f3 ="test";
+
+    
+    public static String h1 ="test";
+    public static String h2 ="test";
+    public static String h3 ="test";
 }
