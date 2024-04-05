@@ -23,6 +23,8 @@ public class AnotherBigFeatureTestClass {
 
   private static final String UNUSED_VARIABLE = "42";
 
+  private String UNUSED_VARIABLE_1 = "43";
+
   private String unusedMethod() {
     return null;
   }
