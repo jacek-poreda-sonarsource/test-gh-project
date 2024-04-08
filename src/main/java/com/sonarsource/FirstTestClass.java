@@ -27,4 +27,8 @@ public class FirstTestClass {
     public static String b1 ="test";
     public static String b2 ="test";
     public static String b3 ="test";
+
+    public static String c1 ="test";
+    public static String c2 ="test";
+    public static String c3 ="test";
 }
