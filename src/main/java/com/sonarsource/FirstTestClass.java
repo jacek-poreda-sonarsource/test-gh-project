@@ -20,34 +20,7 @@ package com.sonarsource;/*
 
 public class FirstTestClass {
 
-    public static String c1 ="test";
-    public static String c2 ="test";
-    public static String c3 ="test";
-
-
-    public static String d1 ="test";
-    public static String d2 ="test";
-    public static String d3 ="test";
-
-    public static String e1 ="test";
-    public static String e2 ="test";
-    public static String e3 ="test";
-
-    
-    public static String f1 ="test";
-    public static String f2 ="test";
-    public static String f3 ="test";
-
-    public static String g1 ="test";
-    public static String g2 ="test";
-    public static String g3 ="test";
-
-    public static String f1 ="test";
-    public static String f2 ="test";
-    public static String f3 ="test";
-
-    
-    public static String h1 ="test";
-    public static String h2 ="test";
-    public static String h3 ="test";
+    public static String a1 ="test";
+    public static String a2 ="test";
+    public static String a3 ="test";
 }
