@@ -20,7 +20,7 @@ package com.sonarsource;/*
 
 public class FirstTestClass {
 
-    public static String y1 ="test";
-    public static String y2 ="test";
-    public static String y3 ="test";
+    public static String x1 ="test";
+    public static String x2 ="test";
+    public static String x3 ="test";
 }
