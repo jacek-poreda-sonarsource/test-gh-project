@@ -35,4 +35,9 @@ public class FirstTestClass {
     public static String y2 ="test";
     public static String y3 ="test";
     public static String y4 ="test";
+
+    public static String c1 ="test";
+    public static String c2 ="test";
+    public static String c3 ="test";
+    public static String c4 ="test";
 }
