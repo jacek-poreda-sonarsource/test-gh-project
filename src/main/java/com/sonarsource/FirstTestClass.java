@@ -24,4 +24,10 @@ public class FirstTestClass {
     public static String x2 ="test";
     public static String x3 ="test";
     public static String x4 ="test";
+
+
+    public static String z1 ="test";
+    public static String z2 ="test";
+    public static String z3 ="test";
+    public static String z4 ="test";
 }
