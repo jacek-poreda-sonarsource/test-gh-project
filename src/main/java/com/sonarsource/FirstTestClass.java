@@ -30,4 +30,9 @@ public class FirstTestClass {
     public static String z2 ="test";
     public static String z3 ="test";
     public static String z4 ="test";
+
+    public static String y1 ="test";
+    public static String y2 ="test";
+    public static String y3 ="test";
+    public static String y4 ="test";
 }
