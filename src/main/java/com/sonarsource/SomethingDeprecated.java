@@ -19,7 +19,6 @@
  */
 package com.sonarsource;
 
-@Deprecated
 public class SomethingDeprecated {
   public void doSomething() {
     System.out.println("Doing something");
