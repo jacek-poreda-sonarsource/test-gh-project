@@ -31,6 +31,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class SecondTestClass {
 
+  private static final String sssss = "snake";
+
   public String applyCBC(String strKey, String plainText) throws InvalidAlgorithmParameterException, InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, BadPaddingException, IllegalBlockSizeException {
     byte[] bytesIV = "7cVgr5cbdCZVw5WY".getBytes("UTF-8");
 
