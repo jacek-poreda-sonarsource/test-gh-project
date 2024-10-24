@@ -40,4 +40,5 @@ public class FirstTestClass {
     public static String c2 ="test";
     public static String c3 ="test";
     public static String c4 ="test";
+    public static String c5 ="test";
 }
