@@ -6,6 +6,10 @@ public class Main {
 
   private String TEST_VALUE_qa = "434";
 
+  private String TEST_VALUE_qa_2 = "434";
+
+  private String TEST_VALUE_qa_3 = "434";
+
   public void main(String[] args) {
     System.out.println("Hello World!");
   }
