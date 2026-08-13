@@ -22,6 +22,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -34,7 +35,8 @@ public class FourthClass {
   public static String hmm = "hm";
 
   public String applyCBC(String strKey, String plainText) throws InvalidAlgorithmParameterException, InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, BadPaddingException, IllegalBlockSizeException {
-    byte[] bytesIV = "7cVgr5cbdCZVzxczcw5zxcWY".getBytes("UTF-8");
+    byte[] bytesIV = new byte[16];
+    new SecureRandom().nextBytes(bytesIV);
 
     /* KEY + IV setting */
     IvParameterSpec iv = new IvParameterSpec(bytesIV);
