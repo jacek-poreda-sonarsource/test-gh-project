@@ -22,6 +22,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -34,7 +35,8 @@ public class SecondTestClass {
   private static final String sssss = "snake";
 
   public String applyCBC(String strKey, String plainText) throws InvalidAlgorithmParameterException, InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, BadPaddingException, IllegalBlockSizeException {
-    byte[] bytesIV = "7cVgr5cbdCZVw5WY".getBytes("UTF-8");
+    byte[] bytesIV = new byte[16];
+    new SecureRandom().nextBytes(bytesIV);
 
     /* KEY + IV setting */
     IvParameterSpec iv = new IvParameterSpec(bytesIV);
@@ -42,7 +44,7 @@ public class SecondTestClass {
 
     /* Ciphering */
     Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5PADDING");
-    cipher.init(Cipher.ENCRYPT_MODE, skeySpec, iv);  // Noncompliant because IV hard coded and cannot vary with each ciphering round
+    cipher.init(Cipher.ENCRYPT_MODE, skeySpec, iv);
     byte[] encryptedBytes = cipher.doFinal(plainText.getBytes("UTF-8"));
     return "";
   }
